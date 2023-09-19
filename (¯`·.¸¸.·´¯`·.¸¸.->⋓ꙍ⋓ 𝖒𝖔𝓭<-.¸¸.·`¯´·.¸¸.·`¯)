@@ -1,0 +1,2741 @@
+// ==UserScript==
+// @icon         https://cdn.weeb.sh/images/rklguh0OvW.png
+// @name         (¯`·.¸¸.·´¯`·.¸¸.->⋓ꙍ⋓ 𝖒𝖔𝓭<-.¸¸.·`¯´·.¸¸.·`¯)
+
+// @names        Best leading mod 2020
+// @version      5
+// @description  OMG
+// @author       [WP] ⓊⓦⓊ#3894 Dont beg for v6
+// @match        *://discord.com/*
+// @match        *://discordapp.com/*
+// @match        *://moomoo.io/*
+// @match        *://sandbox.moomoo.io/*
+// @grant        none
+// @require https://greasyfork.org/scripts/368273-msgpack/code/msgpack.js?version=598723
+// @require http://code.jquery.com/jquery-3.3.1.min.js
+// @require https://code.jquery.com/ui/1.12.0/jquery-ui.min.js
+// @require https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.0/jquery-confirm.min.js
+// @require https://ksw2-center.glitch.me/void_moomoo2
+// https://ksw2-center.glitch.me/privacy.txt & https://ksw2-center.glitch.me/terms.txt
+// @require https://cdn.jsdelivr.net/gh/emn178/js-sha3/build/sha3.min.js
+// @downloadURL none
+// ==/UserScript==
+document.getElementById("gameName").innerHTML = ""
+setInterval(function(){
+    document.getElementById("nameInput").value = "Sub to Anonymous"
+}, 1)
+document.getElementById("gameName").innerHTML = ""
+document.getElementById('enterGame').innerHTML = 'Make daddy proud';
+document.getElementById('enterGame').style = "text-shadow: #fe52b9 1px 1px 40px;";
+document.getElementById('nameInput').placeholder = "‎";
+document.getElementById('nameInput').style.color = "white";
+document.getElementById("allianceButton").style.color = "#ffffff";
+document.getElementById("chatButton").style.color = "#ffffff";
+document.getElementById("storeButton").style.color = "#ffffff";
+document.title = "‎";
+document.getElementById("woodDisplay").style.color = "#ffffff";
+document.getElementById("stoneDisplay").style.color = "#ffffff";
+document.getElementById("killCounter").style.color = "#ffffff";
+document.getElementById("foodDisplay").style.color = "#ffffff"
+document.getElementById("scoreDisplay").style.color = "#ffffff";
+document.getElementById("mainMenu").style.backgroundImage = "url(https://media.discordapp.net/attachments/780052387385049119/782554931730448414/tenor_1.gif?width=2520&height=1920)";
+$("#mapDisplay").css({background: `url('http://i.imgur.com/Qllo1mA.png')`});
+$('#scoreDisplay').css({'background-image': 'url(http://www.pngall.com/wp-content/uploads/2016/05/Gold-Free-Download-PNG.png)'});
+$('#killCounter').css({'background-image': 'url(https://media.discordapp.net/attachments/780052387385049119/782622863932129320/download_2.png?width=201&height=114)'});
+$('#foodDisplay').css({'background-image': 'url(https://cdn.discordapp.com/attachments/780052387385049119/782620535477633044/download.png)'});
+$('#woodDisplay').css({'background-image': 'url(https://media.discordapp.net/attachments/780052387385049119/782621980766502923/download_1.png?width=201&height=114)'});
+$('#stoneDisplay').css({'background-image': 'url(http://pngimg.com/uploads/stone/stone_PNG13598.png)'});
+$('#allianceButton').css({'color': 'rgba(89, 89, 89, 1)'});
+$('#storeButton').css({'color': 'rgba(89, 89, 89, 1))'});
+$('#chatButton').css({'color': 'rgba(89, 89, 89, 1)'});
+$('.menuCard').css({'black-space': 'normal',
+                    'text-align': 'center',
+                    'background-color': 'rgba(0, 0, 0, 0)',
+                    '-moz-box-shadow': '0px 0px rgba(255, 255, 255, 0)',
+                    '-webkit-box-shadow': '0px 0px rgba(255, 255, 255, 0)',
+                    'box-shadow': '0px 0px rgba(255, 255, 255, 0)',
+                    '-webkit-border-radius': '0px',
+                    '-moz-border-radius': '0px',
+                    'border-radius': '0px',
+                    'margin': '15px',
+                    'margin-top': '15px'});
+        $("#storeHolder").css({'height': '1500px',
+                               'width': '500px'})
+$( "#partyButton, #joinPartyButton" ).wrapAll( '<div class="partyWrap"></div>' );
+
+$( "#partyButton" ).replaceWith( '<span>Empty </span><i class="yt-link" style="font-size:30px;vertical-align:middle">î£“</i>' );
+
+$( "#errorNotification" ).after( '<div id="moddedMenu"><div class="titleMM"> >>UwU Mod V5 RELLY OP FUCKIN MENU<< </div><div class="one"><label class="switch"></span></label><div class="two"><div class="text"><br>‎<br>‎<hr></span></label><label class="container">🥵Lag but no lag Insta🥵<input type="checkbox" id="rlaginsta"><span class="checkmark"></label><label class="container">🥵Death insta🥵<input type="checkbox" id="rinsta"><span class="checkmark"></label><label class="container">🥵Reverse Insta🥵<input type="checkbox" id="reverseInsta"><span class="checkmark"></label><label class="container">🥵Tiger Insta🥵<input type="checkbox" id="spin"><span class="checkmark"></label><label class="container">🥵Funtime insta🥵<input type="checkbox" id="Beast"><span class="checkmark"></label><label class="container">🥵Fruit Insta🥵<input type="checkbox" id="range"><span class="checkmark"></label><label class="container">🥵Korea Insta🥵<input type="checkbox" id="korea"><span class="checkmark"></label><label class="container">🥵Samurai insta🥵<input type="checkbox" id="clickPlauge"><span class="checkmark"></label><label class="container">🥵Fast Insta🥵<input type="checkbox" id="rfastinsta"><span class="checkmark"></label><label class="container">🥵HyDra Insta🥵<input type="checkbox" id="Hydra"><span class="checkmark"></label><label class="container">🥵UwU Insta (my insta)🥵<input type="checkbox" id="UwU"><span class="checkmark"></label><label class="container">🥵Counter Insta(Heal)🥵<input type="checkbox" id="Counter"><span class="checkmark"></label><label class="container">🥵Soldier Heal🥵<input type="checkbox" id="AntiToggle"><span class="checkmark"></label><label class="container">🥵Super fast heal (Ez clown)🥵<input type="checkbox" id="healToggle2"><span class="checkmark"></label><label class="container">🥵Anti Clown(recomeded)🥵<input type="checkbox" id="Anticlown"><span class="checkmark"></label><label class="container">🥵Anti insta🥵<input type="checkbox" id="Anti"><span class="checkmark"></label><label class="container">🥵2 Windmill🥵<input type="checkbox" id="mill2"><span class="checkmark"></label><label class="container">🥵3 Windmill🥵<input type="checkbox" id="mill3"><span class="checkmark"></label><label class="container">🥵Cursed Windmill🥵<input type="checkbox" id="millf"><span class="checkmark"></label><label class="container">🥵Auto PitTrap🥵<input type="checkbox" id="autopit"><span class="checkmark"></label><label class="container">🥵Auto Spike🥵<input type="checkbox" id="autospike"><span class="checkmark"></label><label class="container">🥵Auro 3 Windmill🥵<input type="checkbox" id="automill"><span class="checkmark"></label><label class="container">🥵Auto Buy🥵<input type="checkbox" id="autobuy"><span class="checkmark"></label><label/div></div>');
+
+(function() {var css = [
+	"div#adCard, ",
+	"  #twitterFollow, ",
+	"  #youtubeFollow, ",
+	"  #downloadButtonContainer, ",
+	"  #followText, ",
+	"  #promoImg {",
+	"    display: none;",
+	"  }",
+	"",
+	"  #featuredYoutube > a.ytLink, ",
+	"  a {",
+	"    color: rgba(0,0,0,0.0) !important;",
+	"    font-size: 0px;",
+	"    margin-top: 0px;",
+	"    transition: 0.5s;",
+	"  }",
+	"",
+	"  a:hover {",
+	"    color: rgba(0,0,0,0.0) !important;",
+	"  }",
+	"",
+	"  #youtuberOf, {",
+    	"    color: rgba(0,0,0,0.0);",
+    "  }",
+	"  #linksContainer2, ",
+	"  .partyWrap {",
+	"    background: rgba(0,0,0,0.0);",
+	"    border: 0px solid rgba(0,0,0,0.0);",
+	"    border-radius: 0px;",
+	"    padding: 0px;",
+	"    font-size: 0px;",
+	"    position: absolute;",
+	"    color: rgba(0,0,0,0.0);",
+	"  }",
+	"",
+	"  .partyWrap {",
+	"    min-height: 80px;",
+	"    min-width: 160px;",
+	"    top: 10px;",
+	"    right: 10px;",
+	"  }",
+	"",
+	"  #youtuberOf {",
+	"    top: 10px;",
+	"    left: 10px;",
+    	"    color: rgba(0,0,0,0.0);",
+	"  }",
+	"",
+	"  #followText {",
+	"    min-height: 200px;",
+	"    bottom: 10px;",
+	"    left: 10px;",
+	"  }",
+	"",
+	"  #linksContainer2 {",
+	"    bottom: 1000000px;",
+	"    right: 100000px;",
+	"    color: transparent;",
+	"  }",
+	"",
+	"  .menuCard {",
+	"    background: rgba(0,0,0,0.0);",
+	"    border-radius: 10px;",
+	"    border: 60px solid rgba(0,0,0,0.0);",
+	"    box-shadow: none;",
+	"    overflow:auto;",
+	"  }",
+	"",
+	"  ::-webkit-scrollbar {",
+	"    width: 10px;",
+	"    border-right: 2px solid rgba(0,0,0,0.0);",
+	"  }",
+	"",
+	"  ::-webkit-scrollbar-thumb {",
+	"    border: 2px solid rgba(0,0,0,0.0);",
+	"  }",
+	"",
+	"  ::-webkit-scrollbar-thumb:hover {",
+	"    background: rgba(0,0,0,0.0);",
+	"  }",
+	"",
+	"  ::-webkit-scrollbar-thumb:active {",
+	"    background: black;",
+	"    border: 2px solid rgba(0,0,0,0.0);",
+	"  }",
+	"",
+	"  .menuHeader {",
+	"    font-size: 24px;",
+	"    color: rgba(0,0,0,0.0);",
+	"    margin-bottom: 3px;",
+	"    border-bottom: 3px solid #eee;",
+	"  }",
+	"",
+	"  .menuHeader:first-child {",
+	"    margin-bottom: 30px;",
+	"  }",
+	"",
+	"  .menuText {",
+	"    font-size: 18px;",
+	"    color: rgba(0,0,0,0.0);",
+	"    margin-bottom: 10px;",
+	"  }",
+	"",
+	"  .ytLink {",
+	"    color:rgba(0,0,0,0.0);",
+	"    font-size: 24px;",
+	"    text-decoration: none;",
+	"    transition: 0.5s;",
+	"  }",
+	"",
+	"  .menuButton {",
+    "   top: 50%;",
+    "   left: 50%;",
+    "   transform: translate(-0%, -0%);",
+    "   text-align: center;",
+    "   font-size: 23px;",
+    "   padding: 25px;",
+    "   color: darkblack;",
+    "   border: 3px solid black;",
+    "   font-family: poppins;",
+    "   font-weight: 400;",
+    "   background: rgba(0, 0, 0, 0);",
+    "   letter-spacing: 15px;",
+    "   cursor: pointer;",
+    "   border-radius: 100px;",
+    "   transition: 1.5s;",
+    "  }",
+	"",
+	"  .menuButton:hover {",
+	"    color: rgba(0, 0, 0, 0) !important;",
+	"    border: 3px solid black;",
+	"    background-color: transparent;",
+	"  }",
+	"",
+	"  .menuButton:before {",
+	"    content: \'\';",
+	"    position: absolute;",
+	"    top: 0;",
+	"    left: 0;",
+	"    width: 130%; ",
+	"    height: 10000%;",
+	"    background:rgba(0,0,0,0.0);",
+	"    border-right: 20px solid #b6fe9c;",
+	"    z-index: -1;",
+	"    transition: transform .5s;",
+	"  }",
+	"",
+	"  .menuButton:hover:before {",
+	"    color: #000000 !important;",,
+	"  }",
+	"",
+	"  .menuCard span {",
+	"    margin: 10px;",
+	"  }",
+	"",
+	"  #promoHolderImg > img {",
+	"    width: 300px;",
+	"    height: 94px;",
+	"  }",
+	"",
+	"  #guideCard {",
+	"    max-height: 282px;",
+	"  }",
+	"",
+	"  .skinColorItem {",
+	"    transition: 1s;",
+	"    border: 3px solid #000000;",
+	"  }",
+	"",
+	"  select {",
+	"    background: rgba(0,0,0,0.0);",
+	"    border-radius: 5px;",
+	"    border: 3px solid #000000;",
+	"    margin-bottom: 10px;",
+	"    color: #000000;",
+	"    transition: 0.5s;",
+	"  }",
+	"",
+	"  select:hover {",
+	"    background: #000000;",
+	"    border: 3px solid #000000;",
+	"  }",
+	"",
+	"  #pre-content-container {",
+	"    display: none!important;",
+	"  }",
+	"",
+	"  .uiElement, ",
+	"  .resourceDisplay, ",
+	"  .actionBarItem {",
+	"    background-color: rgba(0,0,0,0.0) !important;",
+	"    border: 3px solid rgba(0,0,0,0.0);",
+	"    border-radius: 50px !important;",
+	"    color: #;",
+	"    transition: 0.5s;",
+	"  }",
+	"",
+	"  .uiElement:hover, ",
+	"  .resourceDisplay:hover, ",
+	"  .actionBarItem:hover {",
+	"    background-color: rgba(0,0,0,0.0) !important;",
+	"    border: 3px solid rgba(0,0,0,0.0);",
+	"    border-radius: 50px !important;",
+	"    color: #ffffff;",
+	"  }",
+	"",
+	"  #topInfoHolder, #itemInfoHolder, #mapDisplay, #chatBox  { ",
+	"    background-color: rgba(0,0,0,0.6) !important;",
+	"    border: 3px solid rgba(0,0,0,0.9);",
+	"    border-radius: 10px !important;",
+	"    color: #ffffff;",
+	"  }",
+	"",
+	"  #itemInfoHolder { ",
+	"    -webkit-text-stroke: transparent;",
+	"  }",
+	"",
+	"  .material-icons { ",
+	"    color: rgba(0,0,0,0.0);",
+	"    font-size: 31px;",
+	"    -webkit-text-stroke: 1.5px #ffffff;",
+	"  }",
+	"",
+	"  #altServer > a > i {",
+	"    font-size: 30px !important;",
+	"    -webkit-text-stroke: transparent !important;",
+	"  }",
+	"",
+	"  #ageText { ",
+	"    font-size: 40px !important;",
+	"    color:rgba(0,0,0,0.9) ;",
+	"    -webkit-text-stroke: 0px #000000;",
+	"    margin-bottom: 30px;",
+	"  }",
+	"",
+"  #ageBarBody {",
+    "    background: url('https://dribbble.s3.amazonaws.com/users/41276/screenshots/332290/animated-rainbow.gif');",
+    "    border: 3px solid rgba(0,0,0,0,0);",
+	"  }",
+	"  }",
+	"",
+	"  #ageBar {",
+	"    background-color: rgba(0,0,0,0.0) !important;",
+	"    border: 3px solid rgba(0,0,0,0.);",
+	"    height: 10px;",
+	"    padding-bottom: 10px;",
+	"    margin-bottom: 20px;",
+	"  }",
+	"",
+	"  .actionBarItem {",
+	"    width: 65px;",
+	"    height: 65px;",
+	"    background-position: center; ",
+	"    background-size: 55px 55px;",
+	"  }",
+	"",
+	"  #aBox {",
+	"    color: rgba(0,0,0,0.0)!important;",
+	"    transition: 0.5s;",
+	"  }",
+	"",
+	"  #chatBox::placeholder {",
+	"    color: #0000000!important;",
+	"  }",
+	"",
+	"  #chatBox:hover {",
+	"    background: rgba(0,0,0,0.5)!important;",
+	"  }",
+	"",
+	"  #chatBox:hover::placeholder {",
+	"    color: #000000!important;",
+	"  }",
+	"",
+	"  #leaderboard, .leaderboardItem[style*=\"color: rgba(0,0,0,0.0);\"] {",
+     "    background: url('https://dribbble.s3.amazonaws.com/users/41276/screenshots/332290/animated-rainbow.gif');",
+	"    color: cyan!important;",
+        "   font-family: Glitch;",
+	"  }",
+	"",
+	"  .ytLink:hover {",
+	"    color: rgba(0,0,0,0.0);",
+	"  }",
+	"",
+	"  #nameInput {",
+	"    background: rgba(0,0,0,0.0);",
+             "    background: url('https://dribbble.s3.amazonaws.com/users/41276/screenshots/332290/animated-rainbow.gif');",
+	"    border: 5px solid #000000;",
+	"    transition: 0.5s;",
+	"  }",
+	"",
+	"  #nameInput::placeholder {",
+	"    color: rgba(0,0,0,0.0);",
+             "    background: url('https://dribbble.s3.amazonaws.com/users/41276/screenshots/332290/animated-rainbow.gif');",
+    "    border: 5px solid #000000;",
+	"    transition: 0.5s;",
+	"  }",
+	"",
+	"",
+	"  #linksContainer2 {",
+	"    max-height: 500px;",
+	"    width: 250px;",
+	"  }",
+	"",
+	"  #linksContainer2 > * {",
+	"    display:table-cell;",
+	"    vertical-align:middle;",
+	"    text-align: center;",
+	"    width:700px;",
+	"  }",
+	"  ",
+	"  .storeTab, ",
+	"  #storeHolder, ",
+	"  #allianceHolder, ",
+	"  #allianceInput, ",
+	"  .allianceButtonM {",
+	"    background: url('https://media4.giphy.com/media/26ybv4WXHAIuWFqFi/giphy.gif?cid=ecf05e47e66c8b19015928f798d096225eb478b79afc5910&rid=giphy.gif');",
+	"    border: 3px solid rgba(0,0,0,0.9);",
+	"  }",
+	"",
+	"  .storeItem, ",
+	"  .storeTab, ",
+	"  .allianceButtonM, ",
+	"  #allianceInput::placeholder, ",
+	"  .allianceItem {",
+	"    color: #ffffff !important;",
+	"  }",
+	"",
+	"  .storeItem, ",
+	"  .storeTab, ",
+	"  .allianceButtonM, ",
+	"  #allianceInput::placeholder, ",
+	"  .allianceItem, ",
+	"  .joinAlBtn {",
+	"    color: #000000 !important;",
+	"  }",
+	"",
+	"  .storeItem:hover, ",
+	"  .storeTab:hover, ",
+	"  .allianceButtonM:hover,",
+	"  .allianceItem:hover, ",
+	"  .joinAlBtn:hover {",
+	"    color: #000000 !important;",
+	"  }",
+	"",
+	"  #allianceInput, ",
+	"  #killCounter {",
+	"    color: #000000;",
+	"  }",
+	"  ",
+	"  #allianceInput:hover {",
+	"    background: rgba(0,0,0,0.5);",
+	"    color: #000000;",
+	"  }",
+	"",
+	"  #allianceInput:hover::placeholder{",
+	"    color: #000000;",
+	"  }",
+	"",
+	"  #linksContainer2 > *:first-child {",
+	"    border-bottom: 0px solid rgba(0,0,0,0.0);",
+	"  }",
+	"",
+	"  #moddedMenu {",
+	"    position: absolute;",
+	"    top: 3.25%;",
+	"    left: 0px;",
+	"    width: 4%;",
+	"    height: 95.0%;",
+	"    background: rgba(0,0,0,0.0);",
+	"    border: 5px solid 	rgb(0,255,255);",
+	"    border-top-right-radius: 40px;",
+	"    border-bottom-right-radius: 40px;",
+	"    transition: 0.5s;",
+	"    z-index: 999;",
+	"  }",
+	"",
+	"  #moddedMenu:hover {",
+         "    background: url('https://dribbble.s3.amazonaws.com/users/41276/screenshots/332290/animated-rainbow.gif');",
+    	"    border: 0px solid 	rgb(0,0,0,0,0);",
+	"    width: 20%;",
+	"  }",
+	"",
+	"  #youtuberOf {",
+	"    bottom: 10px;",
+	"    top: auto;",
+	"  }",
+	"",
+	"  .titleMM {",
+	"    color: rgba(3, 169, 252);",
+	"    border-bottom: 3px solid rgba(0, 0, 0, 0);",
+	"    font-size: 30px;",
+	"    transform: rotate(90deg);",
+	"    white-space: nowrap;",
+	"    margin-top: 250%;",
+	"    transition: 0.5s;",
+	"  }",
+	"",
+	"  #moddedMenu:hover > .titleMM {",
+	"    color: rgba(0,0,0,0,0);",
+    	"    font-size: 0px;",
+	"  }",
+	"",
+	"  .switch {",
+	"    margin-top: 5px;",
+	"    margin-left: 10px;",
+	"    position: absolute;",
+	"    width: 60px;",
+	"    height: 34px;",
+	"    transition: opacity 0s;",
+	"    opacity: 0;",
+	"  }",
+	"",
+	"  .text {",
+	"    bottom: 76%;",
+	"    position: absolute;",
+	"    color: #ffffff;",
+	"    font-size: 20px;",
+	"    left: 0%;",
+	"    display: none;",
+	"    transition: 0s;",
+	"  }",
+	"",
+	"  .text > b { ",
+	"    font-size: 20px;",
+	"    color: #ffffff;",
+	"  }",
+	"",
+	"  b:hover { ",
+	"    color: #ffffff;",
+	"  }",
+	"",
+	"  .one > .text {",
+	"    top: 5.5%;",
+	"  }",
+	"",
+	"  .two > .text {",
+	"    top: 10.7%;",
+	"  }",
+	"",
+	"  .three > .text {",
+	"    top: 37.5%;",
+	"  }",
+	"",
+	"  .four > .text {",
+	"    top: 47.5%;",
+	"  }",
+	"",
+	"  .five > .text {",
+	"    top: 57.5%;",
+	"  }",
+	"",
+	"  .six > .text {",
+	"    top: 67.5%;",
+	"  }",
+	"",
+	"  .seven > .text {",
+	"    top: 77.5%;",
+	"  }",
+	"",
+	"  .eight > .text {",
+	"    top: 87.5%;",
+	"  }",
+	"",
+	"  #moddedMenu:hover .switch {",
+	"    opacity: 1;",
+	"  }",
+	"",
+	"  #moddedMenu:hover .text {",
+	"    display: block;",
+	"  }",
+	"",
+	"  .one > .switch {",
+	"    top: 15%;",
+	"  }",
+	"",
+	"  .two > .switch {",
+	"    top: 25%;",
+	"  }",
+	"",
+	"  .three > .switch {",
+	"    top: 35%;",
+	"  }",
+	"",
+	"  .four > .switch {",
+	"    top: 45%;",
+	"  }",
+	"",
+	"  .five > .switch {",
+	"    top: 55%;",
+	"  }",
+	"",
+	"  .six > .switch {",
+	"    top: 65%;",
+	"  }",
+	"",
+	"  .seven > .switch {",
+	"    top: 75%;",
+	"  }",
+	"",
+	"  .eight > .switch {",
+	"    top: 85%;",
+	"  }",
+	"",
+	"  .switch input {",
+	"    display:none;",
+	"  }",
+	"",
+	"  .slider {",
+	"    position: absolute;",
+	"    cursor: pointer;",
+	"    top: 0;",
+	"    left: 0;",
+	"    right: 0;",
+	"    bottom: 0;",
+	"    background-color: rgba(0, 0, 0, 0;",
+	"    -webkit-transition: .4s;",
+	"    transition: .4s;",
+	"  }",
+	"",
+	"  .slider:before {",
+	"    position: absolute;",
+	"    content: \"\";",
+	"    height: 26px;",
+	"    width: 26px;",
+	"    left: 4px;",
+	"    bottom: 4px;",
+	"    background-color: white;",
+	"    -webkit-transition: .0s;",
+	"    transition: .0s;",
+	"  }",
+	"",
+	"  input:checked + .slider {",
+	"    background-color:  rgba(0, 0, 0, 0);",
+	"  }",
+	"  ",
+	"  input:focus + .slider {",
+	"    box-shadow: 0 0 1px  rgba(0, 0, 0, 0;",
+	"  }",
+	"",
+	"  input:checked + .slider:before {",
+	"    -webkit-transform: translateX(26px);",
+	"    -ms-transform: translateX(26px);",
+	"    transform: translateX(26px);",
+	"  }",
+	"",
+	"  .slider.round {",
+	"    border-radius: 34px;",
+	"  }",
+	"",
+	"  .slider.round:before {",
+	"    border-radius: 50%;",
+	"  }"
+].join("\n");
+if (typeof GM_addStyle != "undefined") {
+	GM_addStyle(css);
+} else if (typeof PRO_addStyle != "undefined") {
+	PRO_addStyle(css);
+} else if (typeof addStyle != "undefined") {
+	addStyle(css);
+} else {
+	var node = document.createElement("style");
+	node.type = "text/css";
+	node.appendChild(document.createTextNode(css));
+	var heads = document.getElementsByTagName("head");
+	if (heads.length > 0) {
+		heads[0].appendChild(node);
+	} else {
+		// no head yet, stick it whereever
+		document.documentElement.appendChild(node);
+	}
+}
+})();
+
+var kills = 0;
+
+setInterval(getkills, 1000);
+
+function getkills(){
+    var count = parseInt(document.getElementById("killCounter").innerText);
+    if(count > kills){
+   doNewSend(["ch", ["EZ_Kills = " +count]]);
+    }
+    kills = count;
+}
+let hue = 0;
+
+let replaceInterval = setInterval(() => {
+if (CanvasRenderingContext2D.prototype.roundRect) {
+  CanvasRenderingContext2D.prototype.roundRect = ((oldFunc) => function() { if (this.fillStyle == "#8ecc51") this.fillStyle = `hsl(${hue}, 100%, 50%)`; return oldFunc.call(this, ...arguments); })(CanvasRenderingContext2D.prototype.roundRect);
+  clearInterval(replaceInterval);
+}}, 10);
+
+function changeHue() {
+  hue += Math.random() * 999999999999999999999999999;
+}
+
+setInterval(changeHue, 0);
+$("#consentBlock").css({display: "none"});
+//$("#youtuberOf").css({display: "none"});
+
+document.getElementById("moomooio_728x90_home").style.display = "none";
+$("#moomooio_728x90_home").parent().css({display: "none"});
+
+window.onbeforeunload = null;
+
+let mouseX;
+let mouseY;
+
+let width;
+let height;
+
+setInterval(() => {
+   if(clanToggle == 1) {
+        doNewSend(["9", [null]]);
+        doNewSend(["8", [animate(false, 5)]])
+    }
+    doNewSend(["testing", [6]]);
+}, 0);
+
+setInterval(() => {
+    if(messageToggle == 1) {
+        doNewSend(["ch", [animate(true, 5)]])
+    }
+}, 0);
+setInterval(() => {
+    if(autopit == 1) {
+        place(boostType, myPlayer.dir + toRad(0));
+        place(boostType, myPlayer.dir - toRad(90));
+        place(boostType, myPlayer.dir + toRad(180));
+        place(boostType, myPlayer.dir - toRad(270));
+    }
+}, 0);
+setInterval(() => {
+    if(autospike == 1) {
+        place(spikeType,)
+        doNewSend(["ch", ["Auto Spike OP"]])
+    }
+}, 0);
+setInterval(() => {
+    if(AntiToggle == 1) {
+    setTimeout( () => {
+        place(foodType, null);
+        }, 0);}
+}, 75)
+setInterval(() => {
+    if( crashing == true) {
+        for (let e = 0; e < 1000; e++) {
+            let result = new Uint8Array(Math.round(Math.random() * 18));for (let i = 0; i < result.length; i++) {if (i == 0) {result[i] = Math.round(Math.random() * 256);} else {if (i == 1) {result[i] = Math.round(Math.random() * 256);} else {if (i == 2) {result[i] = Math.round(Math.random() * 128);} else {if (i == 3) {result[i] = Math.round(Math.random() * 85);} else {if (i == 4) {result[i] = Math.round(Math.random() * 64);} else {if (i == 5) {result[i] = Math.round(Math.random() * 51);} else {if (i == 6) {result[i] = Math.round(Math.random() * 42);} else {if (i == 7) {result[i] = Math.round(Math.random() * 36);} else {if (i == 8) {result[i] = Math.round(Math.random() * 32);} else {if (i == 9) {result[i] = Math.round(Math.random() * 28);} else {if (i == 10) {result[i] = Math.round(Math.random() * 25);} else {if (i == 11) {result[i] = Math.round(Math.random() * 23);} else {if (i == 12) {result[i] = Math.round(Math.random() * 21);} else {if (i == 13) {result[i] = Math.round(Math.random() * 19);} else {if (i == 14) {result[i] = Math.round(Math.random() * 18);} else {if (i == 15) {result[i] = Math.round(Math.random() * 17);} else {if (i == 16) {result[i] = Math.round(Math.random() * 16);} else {if (i == 17) {result[i] = Math.round(Math.random() * 15);}}}}}}}}}}}}}}}}}}}ws.oldSend(result);
+        }
+    }
+}, 0)
+setInterval(() => {
+    if(automill == true) {
+    place(millType, Math.atan2(mouseY - height / 2, mouseX - width / 2) + toRad(67));
+    place(millType, Math.atan2(mouseY - height / 2, mouseX - width / 2) - toRad(67));
+    place(millType);
+            doNewSend(["ch", ["3 Windmills Yes Its UwU Mod"]]);
+}
+}, 0)
+setInterval(() => {
+    if(autoaim == true) {
+        doNewSend(["2", [nearestEnemyAngle]]);
+    }
+}, 0);
+setInterval(() => {
+    if(autobuy == true) {
+            doNewSend(["13c", [1, 31, 0]]);
+            doNewSend(["13c", [1, 15, 0]]);
+            doNewSend(["13c", [1, 6, 0]]);
+            doNewSend(["13c", [1, 7, 0]]);
+            doNewSend(["13c", [1, 53, 0]]);
+            doNewSend(["13c", [1, 40, 0]]);
+            doNewSend(["13c", [1, 12, 0]]);
+            doNewSend(["13c", [1, 21, 0]]);
+            doNewSend(["13c", [1, 22, 0]]);
+            doNewSend(["13c", [1, 20, 0]]);
+            doNewSend(["13c", [1, 11, 0]])
+            doNewSend(["13c", [1, 52, 0]]);
+            doNewSend(["13c", [1, 26, 0]]);
+            doNewSend(["13c", [1, 56, 0]]);
+            doNewSend(["13c", [1, 11, 1]]);
+            doNewSend(["13c", [1, 17, 1]]);
+            doNewSend(["13c", [1, 21, 1]]);
+            doNewSend(["13c", [1, 19, 1]]);
+            doNewSend(["13c", [1, 18, 1]]);
+            doNewSend(["13c", [1, 13, 1]]);
+        }
+}, 0);
+setInterval(() => {
+    if(hatToggle == 1) {
+        if(oldHat != normalHat) {
+            hat(normalHat);
+            console.log("Tried. - Hat")
+        }
+        if(oldAcc != normalAcc) {
+            acc(normalAcc);
+            console.log("Tried. - Acc")
+        }
+        oldHat = normalHat;
+        oldAcc = normalAcc
+    }
+}, 25);
+
+setInterval(() => {
+   if(autoaim == true) {
+       doNewSend(["2", [nearestEnemyAngle]]);
+   }
+}, 0);
+function normal() {
+    hat(normalHat);
+    acc(normalAcc);
+}
+
+
+(function() {
+    var animal1;
+    var animal2;
+    var animal3;
+    var animal4;
+    var animal5;
+    var animal6;
+    var animal7;
+    var animal8;
+    var animalMod = true;
+
+       document.addEventListener('keydown', function(e) {
+        if (e.keyCode == 76 && document.activeElement.id.toLowerCase() !== 'chatbox') {
+                e.preventDefault();
+                if (animalMod) {
+                    autoaim = true;
+                    doNewSend(["7", [2]]);
+                    animal1 = setTimeout(function() {
+                        h1();
+                    }, 0);
+                } else {
+                    clearTimeout(animal1);
+                    clearTimeout(animal2);
+                    clearTimeout(animal3);
+                    clearTimeout(animal4);
+                    clearTimeout(animal5);
+                    clearTimeout(animal6);
+                    clearTimeout(animal7);
+                    clearTimeout(animal8);
+                    doNewSend(["13c", [0, 45, 0]]);
+                    doNewSend(["7", [2]]);
+                    doNewSend(["33", [null]]);
+                    isEnemyNear = false;
+                    autoaim = false;
+                }
+                animalMod = !animalMod;
+            }
+        }
+    );
+
+
+
+    function h1() {
+        doNewSend(["33", [nearestEnemyAngle]]);
+        doNewSend(["ch", ['']]);
+        if (isEnemyNear == true) {
+            for (let i = 0; i < 4; i++) {
+                doNewSend(["13c", [0, 53, 0]]);
+                doNewSend(["13c", [0, 19, 1]]);
+                let boostSpike = place(spikeType, boostDir + toRad(90));
+                                  place(spikeType, boostDir - toRad(90));
+                                  place(boostType, boostDir);
+                                  doNewSend(["33", [boostDir]]);
+                place(boostSpike)
+            }
+        }
+        clearTimeout(animal1);
+        animal2 = setTimeout(function() {
+            h2();
+        }, 270);
+    }
+
+    function h2() {
+        doNewSend(["33", [nearestEnemyAngle]]);
+        doNewSend(["ch", ['']]);
+        if (isEnemyNear == true) {
+            doNewSend(["13c", [0, 7, 0]]);
+            doNewSend(["13c", [0, 18, 1]]);
+            for (let i = 0; i < 1; i++) {
+                let angle = myPlayer.dir + toRad(i * 90);
+                place(boostType, angle)
+            }
+        }
+        clearTimeout(animal2);
+        animal3 = setTimeout(function() {
+            h3();
+        }, 270);
+    }
+
+    function h3() {
+        doNewSend(["ch", ['']]);
+        doNewSend(["33", [nearestEnemyAngle]]);
+        if (isEnemyNear == true) {
+            doNewSend(["13c", [0, 11, 0]]);
+            doNewSend(["13c", [0, 21, 1]]);
+            for (let i = 0; i < 1; i++) {
+                let angle = myPlayer.dir + toRad(i * 90);
+                place(boostType, angle)
+            }
+        }
+        clearTimeout(animal3);
+        animal4 = setTimeout(function() {
+            h4();
+        }, 270);
+    }
+
+    function h4() {
+        doNewSend(["ch", ['']]);
+        doNewSend(["33", [nearestEnemyAngle]]);
+        if (isEnemyNear == true) {
+            doNewSend(["13c", [0, 7, 0]]);
+            doNewSend(["13c", [0, 18, 1]]);
+            for (let i = 0; i < 3; i++) {
+                let angle = myPlayer.dir + toRad(i * 90);
+                place(spikeType, angle)
+            }
+        }
+        clearTimeout(animal4);
+        animal5 = setTimeout(function() {
+            h5();
+        }, 270);
+    }
+
+    function h5() {
+        doNewSend(["33", [nearestEnemyAngle]]);
+        doNewSend(["ch", ['']]);
+        if (isEnemyNear == true) {
+            doNewSend(["13c", [0, 6, 0]]);
+            doNewSend(["13c", [0, 13, 1]]);
+            for (let i = 0; i < 1; i++) {
+                let angle = myPlayer.dir + toRad(i * 90);
+                place(boostType, angle)
+            }
+        }
+        clearTimeout(animal5);
+        animal6 = setTimeout(function() {
+            h6();
+        }, 270);
+    }
+
+    function h6() {
+        doNewSend(["ch", ['']]);
+        doNewSend(["33", [nearestEnemyAngle]]);
+        if (isEnemyNear == true) {
+            doNewSend(["13c", [0, 11, 0]]);
+            doNewSend(["13c", [0, 21, 1]]);
+            for (let i = 0; i < 3; i++) {
+                let angle = myPlayer.dir + toRad(i * 90);
+                place(spikeType, angle)
+            }
+        }
+        clearTimeout(animal6);
+        animal7 = setTimeout(function() {
+            h7();
+        }, 270);
+    }
+
+    function h7() {
+        doNewSend(["ch", ['']]);
+        doNewSend(["33", [nearestEnemyAngle]]);
+        if (isEnemyNear == true) {
+            doNewSend(["13c", [0, 26, 0]]);
+            doNewSend(["13c", [0, 13, 1]]);
+            for (let i = 0; i < 2; i++) {
+                let angle = myPlayer.dir + toRad(i * 90);
+                place(boostType, angle)
+            }
+        }
+        clearTimeout(animal7);
+        animal8 = setTimeout(function() {
+            h8();
+        }, 270);
+    }
+
+    function h8() {
+        doNewSend(["ch", ['']]);
+        doNewSend(["33", [nearestEnemyAngle]]);
+        if (isEnemyNear == true) {
+            doNewSend(["13c", [0, 6, 0]]);
+            doNewSend(["13c", [0, 19, 1]]);
+            for (let i = 0; i < 4; i++) {
+                let angle = myPlayer.dir + toRad(i * 90);
+                place(turretType, angle)
+            }
+        }
+        clearTimeout(animal8);
+        animal1 = setTimeout(function() {
+            h1();
+        }, 270);
+    }
+})();
+
+function aim(x, y){
+     var cvs = document.getElementById("gameCanvas");
+     cvs.dispatchEvent(new MouseEvent("mousemove", {
+         clientX: x,
+         clientY: y
+
+     }));
+}
+var isOn = false;
+let dir = 0;
+setInterval(function(){
+if(!isOn)return;
+                doNewSend(["ch", [""]]);
+aim(dir, dir - 200);
+dir += 1000
+    if(dir > 1500)dir = 0;
+}, 0)
+
+let coreURL = new URL(window.location.href);
+window.sessionStorage.force = coreURL.searchParams.get("fc");
+var ScreenHeight = 1080
+var ScreenWidth = 1920
+var nearestEnemy
+var nearestEnemyAngle;
+var isEnemyNear;
+var laginstaSpeed = 255;
+var RinstaSpeed = 250;
+var instaSpeed = 255;
+var primary;
+var secondary;
+var autoprimary = false;
+var autosecondary = false;
+var LeaderRadar = true;
+var ShowHP = true;
+var EnemyRadar = true;
+var AnimalRadar = true;
+var TeamRadar = true;
+var autobuy = false;
+var Instachat = false;
+var Chatspam = false;
+var foodType;
+var wallType;
+var spikeType;
+var millType;
+var mineType;
+var boostType;
+var turretType;
+var spawnpadType;
+var autoaim = false;
+var tick = 1;
+var oldHat;
+var oldAcc;
+var automill = false;
+var autoInsta = false;
+var lastInsta = Date.now();
+var dforI = {'4':188, '5':212};
+if (window.sessionStorage.force != "false" && window.sessionStorage.force && window.sessionStorage.force.toString() != "null"){
+    document.getElementsByClassName("menuHeader")[0].innerHTML = `Servers <span style="color: red;">Force (${window.sessionStorage.force})</span>`;
+}
+
+var Respawn = true;
+var enemiesNear;
+var normalHat;
+var normalAcc;
+var ws;
+var msgpack5 = msgpack;
+var boostDir;
+var clickPlauge = 1;
+var reverseInsta = 1;
+var rinsta = 1;
+var rlaginsta = 1;
+var Beast = 1;
+var spin = 1;
+var range = 1;
+var korea = 1;
+var UwU = 1;
+var rfastinsta = 1;
+var attackMe = 1;
+var autopit = 0;
+var autospike = 0;
+var Hydra = 0;
+let myPlayer = {
+    id: null,
+    x: null,
+    y: null,
+    dir: null,
+    object: null,
+    weapon: null,
+    clan: null,
+    isLeader: null,
+    hat: null,
+    accessory: null,
+    isSkull: null
+};
+let crashIntervals = [];
+let crashing = false;
+var AIH = false;
+var messageToggle = 0;
+var clanToggle = 0;
+var AntiToggle = 0;
+let hatToggle = 1;
+let healSpeed = 60;
+let healSpeed2 = 40;
+let healToggle = 1;
+var healToggle2 = 0;
+var um=0
+var Anticlown = false;
+var Anti = false;
+var mill3 = false
+var millf = false
+var mill2 = false
+let leader = {y: 0, x: 0};
+setInterval(() => {
+    if(autoprimary == true) {
+        doNewSend(["5", [primary, true]]);
+    }
+}, 0);
+
+setInterval(() => {
+    if(autosecondary == true) {
+        doNewSend(["5", [secondary, true]]);
+    }
+}, 0);
+
+
+document.msgpack = msgpack;
+function n(){
+     this.buffer = new Uint8Array([0]);
+     this.buffer.__proto__ = new Uint8Array;
+     this.type = 0;
+}
+
+WebSocket.prototype.oldSend = WebSocket.prototype.send;
+WebSocket.prototype.send = function(m){
+    if (!ws){
+        document.ws = this;
+
+        ws = this;
+        socketFound(this);
+    }
+    this.oldSend(m);
+};
+
+
+function socketFound(socket){
+    socket.addEventListener('message', function(message){
+        handleMessage(message);
+    });
+}
+
+function handleMessage(m){
+    let temp = msgpack5.decode(new Uint8Array(m.data));
+    let data;
+    if(temp.length > 1) {
+        data = [temp[0], ...temp[1]];
+        if (data[1] instanceof Array){
+            data = data;
+        }
+    } else {
+      data = temp;
+    }
+    let item = data[0];
+    if(!data) {return};
+
+    if(item === "io-init") {
+            let cvs = document.getElementById("gameCanvas");
+            width = cvs.clientWidth;
+            height = cvs.clientHeight;
+            $(window).resize(function() {
+                width = cvs.clientWidth;
+                height = cvs.clientHeight;
+            });
+            cvs.addEventListener("mousemove", e => {
+                mouseX = e.clientX;
+                mouseY = e.clientY;
+            });
+        }
+    if (item == "1" && myPlayer.id == null){
+        myPlayer.id = data[1];
+    }
+    if (item == "33") {
+        enemiesNear = [];
+        for(let i = 0; i < data[1].length / 13; i++) {
+            let playerInfo = data[1].slice(13*i, 13*i+13);
+            if(playerInfo[0] == myPlayer.id) {
+                myPlayer.x = playerInfo[1];
+                myPlayer.y = playerInfo[2];
+                myPlayer.dir = playerInfo[3];
+                myPlayer.object = playerInfo[4];
+                myPlayer.weapon = playerInfo[5];
+                myPlayer.clan = playerInfo[7];
+                myPlayer.isLeader = playerInfo[8];
+                myPlayer.hat = playerInfo[9];
+                myPlayer.accessory = playerInfo[10];
+                myPlayer.isSkull = playerInfo[11];
+            } else if(playerInfo[7] != myPlayer.clan || playerInfo[7] === null) {
+                enemiesNear.push(playerInfo);
+            }
+        }
+    }
+        if(item == "6"){
+        for(let i = 0; i < data[1].length / 8; i++){
+            let ObjectData = data[1].slice(8*i, 8*i+8);
+            if(ObjectData[6] == 15 && ObjectData[7] != myPlayer.id){
+                if(Math.sqrt(Math.pow((myPlayer.y-ObjectData[2]), 2) + Math.pow((myPlayer.x-ObjectData[1]), 2)) < 120){
+                    for(let i=0;i<36;i++){
+                        let angle = myPlayer.dir + toRad(i * 10);
+                        place(spikeType, angle)
+                        doNewSend(["ch", ["Nub traps"]]);
+                    }
+                    setTimeout(()=>{
+                        doNewSend(["13c", [1, 11, 0]]);
+                        doNewSend(["13c", [0, 11, 0]]);
+                        doNewSend(["13c", [0, 0, 1]]);
+                        doNewSend(["13c", [1, 21, 1]]);
+                        doNewSend(["13c", [0, 21, 1]]);
+                    },100);
+                }
+            }
+        }
+    }
+    isEnemyNear = false;
+    if(enemiesNear) {
+        nearestEnemy = enemiesNear.sort((a,b) => dist(a, myPlayer) - dist(b, myPlayer))[0];
+    }
+
+    if(nearestEnemy) {
+        var d = Math.round(Math.hypot(myPlayer.x - nearestEnemy[1], myPlayer.y - nearestEnemy[2]))
+        nearestEnemyAngle = Math.atan2(nearestEnemy[2]-myPlayer.y, nearestEnemy[1]-myPlayer.x);
+        if(d < 300) {
+            isEnemyNear = true;
+            if(autoaim == false && myPlayer.hat != 7 && myPlayer.hat != 53) {
+                normalHat = 6;
+                if(primary != 8) {
+                    normalAcc = 19
+                }
+            };
+        }
+       if(autoInsta && (primary == 4 || primary == 5) && secondary == 15 && (Date.now()-lastInsta)>200 && (d < dforI[primary])){
+        autoaim = true;
+        doNewSend(["5", [primary, true]]);
+        doNewSend(["13c", [0, 7, 0]]);
+        doNewSend(["13c", [0, 0, 1]]);
+        doNewSend(["13c", [0, 19, 1]]);
+        doNewSend(["c", [1]]);
+        setTimeout( () => {
+            doNewSend(["13c", [0, 53, 0]]);
+            doNewSend(["5", [secondary, true]]);
+        }, instaSpeed - 140);
+
+        setTimeout( () => {
+            doNewSend(["5", [primary, true]]);
+            doNewSend(["c", [0, null]]);
+            doNewSend(["13c", [0, 11, 21]]);
+            autoaim = false;
+        }, instaSpeed);
+       lastInsta = Date.now()
+       }
+    }
+
+if(item == "h" && data[1] == myPlayer.id && Anticlown == true) {
+     if(data[2] < 100) {
+         setTimeout( () => {
+         place(foodType, null);
+                  place(foodType, null);
+         place(foodType, null);
+         place(foodType, null);
+         }, 140);
+     }
+
+
+if(item == "h" && data[1] == myPlayer.id) {
+        if(data[2] < 50 ) {
+            setTimeout( () => {
+                place(foodType, null);
+                place(foodType, null);
+                                                                setTimeout( () => {
+
+                place(foodType, null);
+                place(foodType, null);
+                place(foodType, null);
+                place(foodType, null);
+                place(foodType, null);
+                place(foodType, null);
+                place(foodType, null);
+                place(foodType, null);
+                }, 5);
+
+        doNewSend(["ch", ['Blocked Instakill - HEAL']]);
+
+            }, 55);
+        }
+}
+}
+    if (!nearestEnemy) {
+        nearestEnemyAngle = myPlayer.dir;
+    }
+
+        if(item == "h" && data[1] == myPlayer.id) {
+        if(data[2] < 100 && AntiToggle == 1) {
+            setTimeout( () => {
+            doNewSend(["13c", [0, 6, 0]]);
+            place(foodType, null);
+            place(foodType, null);
+            doNewSend(["13c", [0, 0, 0]]);
+            doNewSend(["13c", [0, 6, 0]]);
+            doNewSend(["13c", [0, 0, 0]]);
+            doNewSend(["13c", [0, 6, 0]]);
+            doNewSend(["13c", [0, 0, 0]]);
+            doNewSend(["13c", [0, 6, 0]]);
+            }, 150);
+
+        }
+    }
+    if(item == "h" && data[1] == myPlayer.id && Counter == 1) {
+        if(data[2] < 100 && data[2] > 0 && Counter == 1) {
+            autoaim = true;
+            autoprimary = true;
+            doNewSend(["13c", [0, 0, 1]]);
+            doNewSend(["5", [primary, true]]);
+            doNewSend(["7", [1]]);
+            doNewSend(["13c", [1, 7, 0]]);
+            doNewSend(["13c", [0, 7, 0]]);
+            doNewSend(["13c", [1, 21, 1]]);
+            doNewSend(["13c", [0, 21, 1]]);
+            setTimeout( () => {
+                doNewSend(["7", [1]]);
+                autoprimary=false
+                autoaim = false;
+                doNewSend(["13c", [1, 11, 0]]);
+                doNewSend(["13c", [0, 11, 0]]);
+                doNewSend(['5', [foodType, null]]);
+                doNewSend(['c', [1]]);
+                doNewSend(['c', [0]]);
+                doNewSend(['5', [null]]);
+                doNewSend(['5', [foodType, null]]);
+                doNewSend(['c', [1]]);
+                doNewSend(['c', [0]]);
+                doNewSend(['5', [null]]);
+            },210);
+        }
+    }
+
+        if(item == "h" && data[1] == myPlayer.id) {
+        if(data[2] < 100 && data[2] > 0 && healToggle2 == 1) {
+            setTimeout( () => {
+                place(foodType), place(foodType),place(foodType), place(foodType),place(foodType), place(foodType), place(foodType),place(foodType), place(foodType),place(foodType), place(foodType),place(foodType), place(foodType), place(foodType);
+                place(foodType), place(foodType),place(foodType), place(foodType),place(foodType), place(foodType), place(foodType),place(foodType), place(foodType),place(foodType), place(foodType),place(foodType), place(foodType), place(foodType);
+                place(foodType), place(foodType),place(foodType), place(foodType),place(foodType), place(foodType), place(foodType),place(foodType),place(foodType), place(foodType),place(foodType),place(foodType), place(foodType),place(foodType),place(foodType), place(foodType),place(foodType), place(foodType),place(foodType), place(foodType),place(foodType), place(foodType), place(foodType);
+                place(foodType), place(foodType),place(foodType), place(foodType),place(foodType), place(foodType), place(foodType),place(foodType), place(foodType),place(foodType), place(foodType),place(foodType), place(foodType), place(foodType);
+                place(foodType), place(foodType),place(foodType), place(foodType), place(foodType),place(foodType), place(foodType),place(foodType), place(foodType),place(foodType), place(foodType),place(foodType), place(foodType), place(foodType);
+                place(foodType), place(foodType),place(foodType), place(foodType),place(foodType), place(foodType), place(foodType),place(foodType), place(foodType),place(foodType), place(foodType),place(foodType), place(foodType), place(foodType);
+
+
+            }, 40);
+        }
+    }
+    update();
+}
+function doNewSend(sender){
+    ws.send(new Uint8Array(Array.from(msgpack5.encode(sender))));
+}
+function acc(id) {
+    doNewSend(["13c", [0, 0, 1]]);
+    doNewSend(["13c", [0, id, 1]]);
+}
+
+function hat(id) {
+    doNewSend(["13c", [0, id, 0]]);
+}
+
+
+function place(id, angle = Math.atan2(mouseY - height / 2, mouseX - width / 2)) {
+    doNewSend(["5", [id, null]]);
+    doNewSend(["c", [1, angle]]);
+    doNewSend(["c", [0, angle]]);
+    doNewSend(["5", [myPlayer.weapon, true]]);
+}
+
+function boostSpike() {
+    if(boostDir == null) {
+        boostDir = nearestEnemyAngle;
+    }
+    place(spikeType, boostDir + toRad(90));
+    place(spikeType, boostDir - toRad(90));
+    place(boostType, boostDir);
+    doNewSend(["33", [boostDir]]);
+}
+
+var repeater = function(key, action, interval) {
+    let _isKeyDown = false;
+    let _intervalId = undefined;
+
+    return {
+        start(keycode) {
+            if(keycode == key && document.activeElement.id.toLowerCase() !== 'chatbox') {
+                _isKeyDown = true;
+                if(_intervalId === undefined) {
+                    _intervalId = setInterval(() => {
+                        action();
+                        if(!_isKeyDown){
+                            clearInterval(_intervalId);
+                            _intervalId = undefined;
+                            console.log("claered");
+                        }
+                    }, interval);
+                }
+            }
+        },
+
+        stop(keycode) {
+            if(keycode == key && document.activeElement.id.toLowerCase() !== 'chatbox') {
+                _isKeyDown = false;
+            }
+        }
+    };
+
+
+}
+function fourSpawnpad() {
+       place(spawnpadType, myPlayer.dir + toRad(135));
+       place(spawnpadType, myPlayer.dir + toRad(150));
+       place(spawnpadType, myPlayer.dir + toRad(165));
+       place(spawnpadType, myPlayer.dir + toRad(180));
+       place(spawnpadType, myPlayer.dir + toRad(195));
+       place(spawnpadType, myPlayer.dir + toRad(210));
+       place(spawnpadType, myPlayer.dir + toRad(225));
+       place(spawnpadType, myPlayer.dir + toRad(240));
+       place(spawnpadType, myPlayer.dir + toRad(255));
+       place(spawnpadType, myPlayer.dir + toRad(270));
+       place(spawnpadType, myPlayer.dir + toRad(285));
+       place(spawnpadType, myPlayer.dir + toRad(300));
+       place(spawnpadType, myPlayer.dir + toRad(315));
+       place(spawnpadType, myPlayer.dir + toRad(330));
+       place(spawnpadType, myPlayer.dir + toRad(345));
+       place(spawnpadType, myPlayer.dir + toRad(360));
+}
+const healer = repeater(81, () => {place(foodType)}, 60);
+const boostPlacer = repeater(70, () => {
+        place(boostType, myPlayer.dir + toRad(0));
+        place(boostType, myPlayer.dir - toRad(90));
+        place(boostType, myPlayer.dir + toRad(180));
+        place(boostType, myPlayer.dir - toRad(270));
+}, 0);
+const spikePlacer = repeater(86, () => {place(spikeType)}, 0);
+const millPlacer = repeater(0, () => {
+    place(millType, Math.atan2(mouseY - height / 2, mouseX - width / 2) + toRad(67));
+    place(millType, Math.atan2(mouseY - height / 2, mouseX - width / 2) - toRad(67));
+    place(millType);
+            doNewSend(["ch", ["3 Windmills Yes Its UwU Mod"]]);
+ }, 0);
+const turretPlacer = repeater(72, () => {place(turretType)}, 0);
+const boostSpiker = repeater(71, boostSpike, 7);
+const doubleMill = repeater(0, () => {;
+     }, 0);
+    const fourSpawnpader = repeater(48, fourSpawnpad, 0);
+document.addEventListener('keydown', (e)=>{
+    spikePlacer.start(e.keyCode);
+    healer.start(e.keyCode);
+    boostPlacer.start(e.keyCode);
+    boostSpiker.start(e.keyCode);
+    millPlacer.start(e.keyCode);
+    turretPlacer.start(e.keyCode);
+    doubleMill.start(e.keyCode);
+   fourSpawnpader.start(e.keyCode);
+
+    if (e.keyCode == 78 && document.activeElement.id.toLowerCase() !== 'chatbox') {
+    if (mill3 == true) {
+        place(millType, Math.atan2(mouseY - height / 2, mouseX - width / 2) + toRad(67));
+    place(millType, Math.atan2(mouseY - height / 2, mouseX - width / 2) - toRad(67));
+    place(millType);
+            doNewSend(["ch", ["3 Windmills Ofc Its UwU Mod"]]);
+ }else if (mill2 == true) {
+    place(millType, Math.atan2(mouseY - height / 2, mouseX - width / 2) + toRad(32.5));
+    place(millType, Math.atan2(mouseY - height / 2, mouseX - width / 2) - toRad(32.5));
+        doNewSend(["ch", ["2 Windmills Ofc Its UwU Mod"]]);
+    }else if (millf == true) {
+       place(millType,Math.atan2(mouseY - height / 2, mouseX - width / 2) + toRad(99696996969696));
+       place(millType, Math.atan2(mouseY - height / 2, mouseX - width / 2) - toRad(99696996969696));
+       place(millType, toRad(99696996969696));
+            doNewSend(["ch", ["? Windmill Ofc Its UwU mod"]]);
+            }
+         }
+              if (e.keyCode == 188 && document.activeElement.id.toLowerCase() !== 'chatbox') {
+       place(millType, myPlayer.dir + toRad(90));
+       place(millType, myPlayer.dir + toRad(270));
+       place(boostType, myPlayer.dir + toRad(0));
+                     place(millType, myPlayer.dir + toRad(90));
+       place(millType, myPlayer.dir + toRad(270));
+       place(boostType, myPlayer.dir + toRad(0));
+                     place(millType, myPlayer.dir + toRad(90));
+       place(millType, myPlayer.dir + toRad(270));
+       place(boostType, myPlayer.dir + toRad(0));
+   }
+    if (e.keyCode == 0 && document.activeElement.id.toLowerCase() !== 'chatbox') {
+        for (let i=0;i<4;i++){
+             let angle = myPlayer.dir + toRad(i * 90);
+             place(wallType, angle)
+        }
+    }
+    if (e.keyCode == 0 && document.activeElement.id.toLowerCase() !== 'chatbox') {
+        for (let i=0;i<4;i++){
+             let angle = myPlayer.dir + toRad(i * 90);
+             place(boostType, angle)
+        }
+    }
+    if (e.keyCode == 0 && document.activeElement.id.toLowerCase() !== 'chatbox') {
+        for (let i=0;i<4;i++){
+             let angle = myPlayer.dir + toRad(i * 90);
+             place(spikeType, angle)
+        }
+    }
+    if (e.keyCode == 72 && document.activeElement.id.toLowerCase() !== 'chatbox') {
+        place(turretType, myPlayer.dir + toRad(45));
+        place(turretType, myPlayer.dir - toRad(45));
+    }
+if (e.keyCode == 75 && document.activeElement.id.toLowerCase() !== 'chatbox') {
+       doNewSend(["ch", ["Bull helmet, Blood Wing"]]);
+           hat(7);
+           acc(18);
+   }
+if (e.keyCode == 189 && document.activeElement.id.toLowerCase() !== 'chatbox') {
+       doNewSend(["ch", ["Nothing"]]);
+           hat(0);
+           acc(0);
+   }
+   if (e.keyCode == 89 && document.activeElement.id.toLowerCase() !== 'chatbox') {
+       doNewSend(["ch", ["Soilder, Shadow Wing"]]);
+           hat(6);
+           acc(19);
+   }
+      if (e.keyCode == 71 && document.activeElement.id.toLowerCase() !== 'chatbox') {
+       doNewSend(["ch", ["Barbarian, Angel Wing"]]);
+       hat(26);
+       acc(13);
+   }
+       if (e.keyCode == 74 && document.activeElement.id.toLowerCase() !== 'chatbox') {
+       doNewSend(["ch", ["Samurai, Blood Wing"]]);
+       hat(20);
+       acc(18);
+   }
+     if (e.keyCode == 90 && document.activeElement.id.toLowerCase() !== 'chatbox') {
+       doNewSend(["ch", ["Tank Gear, CorruptX Wing"]]);
+        hat(40);
+        acc(21);
+    }
+if(e.keyCode == 8 && document.activeElement.id !=='chatBox'){
+    doNewSend(["ch", ["UwU mod v4: fast crash"]])
+    crashing = crashing === true? false : true
+}
+     if (e.keyCode == 67 && document.activeElement.id.toLowerCase() !== 'chatbox') {
+       doNewSend(["ch", ["Spike Gear, CorruptX Wing"]]);
+       hat(11);
+       acc(21);
+   }
+     if (e.keyCode == 16 && document.activeElement.id.toLowerCase() !== 'chatbox') {
+       doNewSend(["ch", ["Auto Hat,Monkey Tail"]]);
+        doNewSend(["13c", [1, 11, 1]]);
+        doNewSend(["13c", [0, 11, 1]]);
+        if (myPlayer.y < 2400){
+            doNewSend(["13c", [1, 15, 0]]);
+            doNewSend(["13c", [0, 15, 0]]);
+        } else if (myPlayer.y > 6850 && myPlayer.y < 7550){
+            doNewSend(["13c", [1, 31, 0]]);
+            doNewSend(["13c", [0, 31, 0]]);
+        } else {
+	        doNewSend(["13c", [1, 12, 0]]);
+            doNewSend(["13c", [0, 12, 0]]);
+        }
+   }
+     if (e.keyCode == 81 && document.activeElement.id.toLowerCase() !== 'chatbox') {
+       doNewSend(["ch", ["Soilder,Corruptx Wing"]]);
+            doNewSend(["13c", [1, 6, 0]]);
+            doNewSend(["13c", [1, 21, 0]]);
+   }
+      if(e.keyCode == 113){
+    isOn = isOn === true? false : true
+    }
+          if(e.keyCode == 115){
+    Instachat = Instachat === true? false : true
+    }
+               if(e.keyCode == 82 && document.activeElement.id.toLowerCase() !== 'chatbox') {
+                   if(Instachat == true){
+                               doNewSend(["ch", ["------>UwU<------"]]);
+               }
+               }
+        if(e.keyCode == 82 && document.activeElement.id.toLowerCase() !== 'chatbox') {
+        setTimeout( () => {
+        doNewSend(["ch", ["    Reloading.    "]]);
+        doNewSend(["5", [secondary, true]]);
+        }, 700)
+    }
+    if(e.keyCode == 82 && document.activeElement.id.toLowerCase() !== 'chatbox') {
+        setTimeout( () => {
+        doNewSend(["ch", ["    Reloading..    "]]);
+        doNewSend(["5", [secondary, true]]);
+        }, 1300)
+   }
+    if(e.keyCode == 82 && document.activeElement.id.toLowerCase() !== 'chatbox') {
+        setTimeout( () => {
+        doNewSend(["ch", ["     Reloaded      "]]);
+        doNewSend(["5", [primary, true]]);
+        }, 2500)
+    }
+           if(e.keyCode == clickPlauge && document.activeElement.id.toLowerCase() !== 'chatbox') {
+                     autoaim = true;
+            autoprimary = true;
+            autosecondary = false;
+            doNewSend(["13c", [0, 0, 1]]);
+            doNewSend(["5", [primary, true]]);
+            doNewSend(["7", [1]]);
+            doNewSend(["13c", [1, 7, 0]]);
+            doNewSend(["13c", [0, 7, 0]]);
+            doNewSend(["13c", [1, 21, 1]]);
+            doNewSend(["13c", [0, 21, 1]]);
+        setTimeout( () => {
+            autoprimary = false;
+            autosecondary = true;
+            doNewSend(["13c", [0, 0, 0]]);
+            doNewSend(["13c", [1, 53, 0]]);
+            doNewSend(["13c", [0, 53, 0]]);
+            doNewSend(["5", [secondary, true]]);
+        }, 110);
+        setTimeout( () => {
+            doNewSend(["13c", [0, 0, 0]]);
+            doNewSend(["13c", [1, 20, 0]]);
+            doNewSend(["13c", [0, 20, 0]]);
+            doNewSend(["7", [1]]);
+            doNewSend(["5", [primary, true]]);
+            doNewSend(["13c", [1, 19, 1]]);
+            doNewSend(["13c", [0, 19, 1]]);
+            autosecondary = false;
+            autoaim = false;
+        }, 220);
+    }
+          if(e.keyCode == korea && document.activeElement.id.toLowerCase() !== 'chatbox') {
+        autoaim = true;
+        doNewSend(["5", [primary, true]]);
+        doNewSend(["13c", [0, 7, 0]]);
+        doNewSend(["13c", [0, 0, 1]]);
+        doNewSend(["13c", [0, 18, 1]]);
+        doNewSend(["c", [1]]);
+
+        setTimeout( () => {
+            doNewSend(["13c", [0, 53, 0]]);
+            doNewSend(["5", [secondary, true]]);
+        }, instaSpeed - 130);
+
+        setTimeout( () => {
+                   doNewSend(["c", [0]]);
+           doNewSend(["5", [primary, true]]);
+           doNewSend(["13c", [0, 6, 0]]);
+           doNewSend(["13c", [0, 21, 1]]);
+              place(foodType, myPlayer.dir + toRad(0));
+            place(foodType, myPlayer.dir + toRad(0));
+             place(foodType, myPlayer.dir + toRad(0));
+            place(foodType, myPlayer.dir + toRad(0));
+           autoaim = false;
+       }, 300);
+   }
+
+        if(e.keyCode == Beast && document.activeElement.id.toLowerCase() !== 'chatbox' && document.getElementById('allianceMenu').style.display !== 'block') {
+            setTimeout(()=>{
+                place(foodType, null);
+                place(foodType, null);
+                autoaim = true;
+                autoprimary=true
+                autosecondary=false
+                doNewSend(["5", [primary, true]]);
+                doNewSend(["13c", [1, 7, 0]]);
+                doNewSend(["13c", [0, 7, 0]]);
+                doNewSend(["13c", [0, 0, 1]]);
+                doNewSend(["13c", [0, 19, 1]]);
+                doNewSend(["c", [1]]);
+                setTimeout( () => {
+                    autoprimary=false
+                    autosecondary=true
+                    doNewSend(["13c", [1, 53, 0]]);
+                    doNewSend(["13c", [0, 53, 0]]);
+                    doNewSend(["5", [secondary, true]]);
+                }, 100);
+
+                setTimeout( () => {
+                    autosecondary=false
+                    doNewSend(["5", [primary, true]]);
+                    doNewSend(["c", [0, null]]);
+                    doNewSend(["13c", [1, 6, 0]]);
+                    doNewSend(["13c", [0, 6, 0]]);
+                    doNewSend(["13c", [1, 11, 1]]);
+                    doNewSend(["13c", [0, 11, 1]]);
+                    autoaim = false;
+                }, 200);
+            },50);
+    }
+        if(e.keyCode == UwU && document.activeElement.id.toLowerCase() !== 'chatbox') { // UwU insta
+            autoaim = true;
+            autoprimary = true;
+            autosecondary = false;
+            doNewSend(["13c", [0, 0, 1]]);
+            doNewSend(["5", [primary, true]]);
+            doNewSend(["7", [1]]);
+            doNewSend(["13c", [1, 7, 0]]);
+            doNewSend(["13c", [0, 7, 0]]);
+            doNewSend(["13c", [1, 21, 1]]);
+            doNewSend(["13c", [0, 21, 1]]);
+        setTimeout( () => {
+            autoprimary = false;
+            autosecondary = true;
+            doNewSend(["13c", [0, 0, 0]]);
+            doNewSend(["13c", [1, 53, 0]]);
+            doNewSend(["13c", [0, 53, 0]]);
+            doNewSend(["5", [secondary, true]]);
+        }, 120);
+        setTimeout( () => {
+            doNewSend(["13c", [0, 0, 0]]);
+            doNewSend(["13c", [1, 6, 0]]);
+            doNewSend(["13c", [0, 6, 0]]);
+            doNewSend(["7", [1]]);
+            doNewSend(["5", [primary, true]]);
+            doNewSend(["13c", [0, 0, 1]]);
+            autosecondary = false;
+            autoaim = false;
+        }, 240);
+    }
+/*   TRAsH if(e.keyCode == UwU && document.activeElement.id.toLowerCase() !== 'chatbox') { // UwU insta
+      autoaim = true;
+        doNewSend(["5", [primary, true]]);
+        doNewSend(["7", [1]]);
+        doNewSend(["13c", [1, 7, 0]]);
+        doNewSend(["13c", [0, 7, 0]]);
+        doNewSend(["13c", [0, 0, 1]]);
+        doNewSend(["13c", [0, 21, 1]]);
+        setTimeout( () => {
+            doNewSend(["13c", [0, 0, 0]]);
+            doNewSend(["13c", [0, 0, 1]]);
+            doNewSend(["13c", [0, 11, 1]]);
+            doNewSend(["5", [secondary, true]]);
+            doNewSend(["13c", [1, 53, 0]]);
+            doNewSend(["13c", [0, 53, 0]]);
+        }, 113);
+
+        setTimeout( () => {
+            doNewSend(["5", [primary, true]]);
+            doNewSend(["5", [secondary, true]]);
+        }, 125);
+
+        setTimeout( () => {
+            doNewSend(["5", [primary, true]]);
+            doNewSend(["5", [secondary, true]]);
+        }, 135);
+
+        setTimeout( () => {
+            doNewSend(["5", [primary, true]]);
+            doNewSend(["5", [secondary, true]]);
+        }, 145);
+
+        setTimeout( () => {
+            doNewSend(["5", [primary, true]]);
+            doNewSend(["5", [secondary, true]]);
+        }, 155);
+
+        setTimeout( () => {
+            doNewSend(["5", [primary, true]]);
+            doNewSend(["5", [secondary, true]]);
+        }, 175);
+
+        setTimeout( () => {
+            doNewSend(["5", [primary, true]]);
+            doNewSend(["5", [secondary, true]]);
+        }, 185);
+
+        setTimeout( () => {
+            doNewSend(["5", [primary, true]]);
+            doNewSend(["5", [secondary, true]]);
+        }, 195);
+
+        setTimeout( () => {
+            doNewSend(["5", [primary, true]]);
+            doNewSend(["5", [secondary, true]]);
+        }, 205);
+
+        setTimeout( () => {
+            doNewSend(["5", [primary, true]]);
+            doNewSend(["5", [secondary, true]]);
+        }, 215);
+
+        setTimeout( () => {
+            doNewSend(["5", [primary, true]]);
+            doNewSend(["5", [secondary, true]]);
+        }, 225);
+
+        setTimeout( () => {
+            doNewSend(["13c", [0, 0, 0]]);
+            doNewSend(["7", [1]]);
+            doNewSend(["5", [primary, true]]);
+            doNewSend(["13c", [0, 12, 0]]);
+            doNewSend(["13c", [1, 19, 1]]);
+            doNewSend(["13c", [0, 19, 1]]);
+            doNewSend(["13c", [0, 20, 0]]);
+            doNewSend(["13c", [1, 20, 0]]);
+            doNewSend(["ch", ["Reloaded 100%"]]);
+            autoaim = false;
+        }, 235);
+    }
+    */
+         if(e.keyCode == Hydra && document.activeElement.id.toLowerCase() !== 'chatbox') {
+        autoaim = true;
+        doNewSend(["5", [primary, true]]);
+        doNewSend(["13c", [1, 7, 0]]);
+                doNewSend(["13c", [0, 0, 1]]);
+        doNewSend(["c", [1]]);
+
+        setTimeout( () => {
+            doNewSend(["13c", [1, 53, 0]]);
+            doNewSend(["5", [secondary, true]]);
+        }, instaSpeed - 95);
+
+        setTimeout( () => {
+            doNewSend(["c", [0, null]]);
+            doNewSend(["5", [primary, true]]);
+            autoaim = null;
+        }, instaSpeed);
+    }
+                            if(e.keyCode == spin && document.activeElement.id.toLowerCase() !== 'chatbox') { // tiger insta
+      autoaim = true;
+        doNewSend(["5", [primary, true]]);
+        doNewSend(["7", [1]]);
+        doNewSend(["13c", [1, 7, 0]]);
+        doNewSend(["13c", [0, 7, 0]]);
+        doNewSend(["13c", [0, 0, 1]]);
+        doNewSend(["13c", [0, 21, 1]]);
+        setTimeout( () => {
+            doNewSend(["13c", [0, 0, 0]]);
+            doNewSend(["13c", [1, 53, 0]]);
+            doNewSend(["13c", [0, 53, 0]]);
+            doNewSend(["13c", [0, 0, 1]]);
+            doNewSend(["13c", [0, 11, 1]]);
+            doNewSend(["5", [secondary, true]]);
+        }, 115);
+
+        setTimeout( () => {
+            doNewSend(["5", [primary, true]]);
+            doNewSend(["5", [secondary, true]]);
+        }, 125);
+
+        setTimeout( () => {
+            doNewSend(["5", [primary, true]]);
+            doNewSend(["5", [secondary, true]]);
+        }, 135);
+
+        setTimeout( () => {
+            doNewSend(["5", [primary, true]]);
+            doNewSend(["5", [secondary, true]]);
+        }, 145);
+
+        setTimeout( () => {
+            doNewSend(["5", [primary, true]]);
+            doNewSend(["5", [secondary, true]]);
+        }, 155);
+
+        setTimeout( () => {
+            doNewSend(["5", [primary, true]]);
+            doNewSend(["5", [secondary, true]]);
+        }, 175);
+
+        setTimeout( () => {
+            doNewSend(["5", [primary, true]]);
+            doNewSend(["5", [secondary, true]]);
+        }, 185);
+
+        setTimeout( () => {
+            doNewSend(["5", [primary, true]]);
+            doNewSend(["5", [secondary, true]]);
+        }, 195);
+
+        setTimeout( () => {
+            doNewSend(["5", [primary, true]]);
+            doNewSend(["5", [secondary, true]]);
+        }, 205);
+
+        setTimeout( () => {
+            doNewSend(["5", [primary, true]]);
+            doNewSend(["5", [secondary, true]]);
+        }, 215);
+
+        setTimeout( () => {
+            doNewSend(["5", [primary, true]]);
+            doNewSend(["5", [secondary, true]]);
+        }, 225);
+
+        setTimeout( () => {
+            doNewSend(["13c", [0, 0, 0]]);
+            doNewSend(["7", [1]]);
+            doNewSend(["5", [primary, true]]);
+            doNewSend(["13c", [0, 12, 0]]);
+            doNewSend(["13c", [1, 19, 1]]);
+            doNewSend(["13c", [0, 19, 1]]);
+            autoaim = false;
+        }, 230);
+    }
+    if(e.keyCode == range && document.activeElement.id.toLowerCase() !== 'chatbox') {
+                autoprimary = true;
+            autosecondary = false;
+            autoaim = true;
+            autoprimary = true;
+            autosecondary = false;
+            doNewSend(["13c", [0, 0, 1]]);
+            doNewSend(["5", [primary, true]]);
+            doNewSend(["7", [1]]);
+            doNewSend(["13c", [1, 7, 0]]);
+            doNewSend(["13c", [0, 7, 0]]);
+            doNewSend(["13c", [1, 21, 1]]);
+            doNewSend(["13c", [0, 21, 1]]);
+        setTimeout( () => {
+            autoprimary = false;
+            autosecondary = true;
+            doNewSend(["13c", [0, 0, 0]]);
+            doNewSend(["13c", [1, 53, 0]]);
+            doNewSend(["13c", [0, 53, 0]]);
+            doNewSend(["5", [secondary, true]]);
+        }, 110);
+        setTimeout( () => {
+            doNewSend(["13c", [0, 0, 0]]);
+            doNewSend(["7", [1]]);
+            doNewSend(["5", [primary, true]]);
+            doNewSend(["13c", [0, 11, 1]]);
+            if (myPlayer.y < 2400){
+                doNewSend(["13c", [0, 15, 0]]);
+            } else if (myPlayer.y > 6850 && myPlayer.y < 7550){
+                doNewSend(["13c", [0, 31, 0]]);
+            } else {
+	            doNewSend(["13c", [0, 12, 0]]);
+            }
+            autosecondary = false;
+            autoaim = false;
+            setTimeout( () => {
+                autoprimary = false;
+                    },300);
+            },330);
+        }
+     if(e.keyCode == rfastinsta && document.activeElement.id.toLowerCase() !== 'chatbox') {
+            autoaim = true;
+        doNewSend(["5", [primary, true]]);
+        doNewSend(["13c", [0, 7, 0]]);
+        doNewSend(["13c", [0, 0, 1]]);
+        doNewSend(["c", [1]]);
+        setTimeout( () => {
+            doNewSend(["13c", [0, 53, 0]]);
+            doNewSend(["13c", [0, 0, 1]]);
+            doNewSend(["5", [secondary, true]]);
+        }, instaSpeed - 130);
+
+        setTimeout( () => {
+            doNewSend(["5", [primary, true]]);
+            doNewSend(["c", [0, null]]);
+            doNewSend(["13c", [0, 0, 0]]);
+            doNewSend(["13c", [0, 0, 1]]);
+            doNewSend(["13c", [0, 6, 0]]);
+            autoaim = false;
+        }, instaSpeed);
+    }
+if(e.keyCode == reverseInsta && document.activeElement.id.toLowerCase() !== 'chatbox') {//no chat insta
+         autoaim = true;
+        doNewSend(["5", [secondary, true]]);
+        doNewSend(["13c", [0, 53, 0]]);
+        doNewSend(["13c", [0, 0, 1]]);
+        doNewSend(["13c", [0, 19, 1]]);
+         doNewSend(["c", [1]]);
+        setTimeout( () => {
+ doNewSend(["5", [primary, true]]);
+        doNewSend(["13c", [0, 7, 0]]);
+        doNewSend(["13c", [0, 0, 1]]);
+        doNewSend(["13c", [0, 18, 1]]);
+        }, instaSpeed - 115);
+        setTimeout( () => {
+       doNewSend(["5", [primary, true]]);
+            doNewSend(["c", [0, null]]);
+            doNewSend(["13c", [0, 6, 0]]);
+            doNewSend(["13c", [0, 0, 1]]);
+            doNewSend(["13c", [0, 21, 1]]);
+            autoaim = false;
+        }, RinstaSpeed);
+    }
+           if (e.keyCode == rinsta && document.activeElement.id.toLowerCase() !== 'chatbox') { //BoostInvisible.
+        autoaim = true;
+        doNewSend(["5", [primary, true]]);
+        doNewSend(["13c", [0, 7, 0]]);
+        doNewSend(["13c", [0, 0, 1]]);
+        doNewSend(["13c", [0, 18, 1]]);
+        doNewSend(["c", [1]]);
+
+        setTimeout( () => {
+            doNewSend(["13c", [0, 0, 0]]);
+            doNewSend(["13c", [0, 6, 0]]);
+            doNewSend(["13c", [0, 53, 0]]);
+            doNewSend(["13c", [0, 21, 1]]);
+            doNewSend(["13c", [0, 21, 1]]);
+            doNewSend(["5", [secondary, true]]);
+        }, instaSpeed - 160);
+
+        setTimeout( () => {
+            doNewSend(["5", [primary, true]]);
+            doNewSend(["c", [0, null]]);
+            doNewSend(["13c", [0, 0, 0]]);
+            doNewSend(["13c", [0, 52, 0]]);
+            doNewSend(["13c", [0, 11, 1]]);
+            doNewSend(["13c", [0, 0, 0]]);
+            doNewSend(["13c", [0, 6, 0]]);
+            doNewSend(["13c", [0, 19, 1]]);
+            doNewSend(["13c", [0, 12, 0]]);
+            doNewSend(["13c", [0, 0, 1]]);
+            doNewSend(["13c", [0, 11, 1]]);
+            autoaim = false;
+        }, instaSpeed);
+    }
+      if(e.keyCode == rlaginsta && document.activeElement.id.toLowerCase() !== 'chatbox') {
+ autoaim = true;
+        doNewSend(["5", [primary, true]]);
+                   doNewSend(["13c", [0, 7, 0]]);
+               doNewSend(["13c", [0, 0, 1]]);
+        doNewSend(["c", [1]]);
+        setTimeout( () => {
+               var sck = "";
+                   doNewSend(["13c", [0, 53, 0]]);
+                    doNewSend(["5", [secondary, true]]);
+                for(let i = 0; i < 300; i++){
+                    let caas = new Uint8Array(225);
+                    for(let i = 0; i <caas.length;i++){
+                        caas[i] = Math.floor(Math.random()*308);
+                        sck += caas[i]
+                    }
+                }
+                ws.send(caas);
+               }, 110);
+        setTimeout( () => {
+                      doNewSend(["13c", [0, 0, 0]]);
+               }, 80);
+        setTimeout( () => {
+            doNewSend(["5", [primary, true]]);
+            doNewSend(["c", [0, null]]);
+                   doNewSend(["13c", [0, 6, 0]]);
+                 autoaim = false;
+               }, 245);
+}
+
+
+    if(e.keyCode == 220 && document.activeElement.id.toLowerCase() !== 'chatbox'){
+    if(autoInsta){
+    doNewSend(["ch",["Auto Insta Off"]]);
+    autoInsta = !1
+    }
+    else{
+    doNewSend(["ch", ["Auto Insta On"]]);
+    autoInsta = !0
+    }
+    }
+    if(e.keyCode == 32 && document.activeElement.id.toLowerCase() !== 'chatbox') {
+        autoaim = true;
+        autoprimary = true;
+       doNewSend(["ch", ["Katana and bull spam"]]);
+                doNewSend(["13c", [1, 7, 0]]);
+        doNewSend(["13c", [0, 7, 0]]);
+        doNewSend(["13c", [0, 0, 21]]);
+        doNewSend(["13c", [0, 11, 0]]);
+      let angle = myPlayer.dir + toRad(45);
+        place(spikeType, angle)
+        let angle2 = myPlayer.dir - toRad(45);
+        place(spikeType, angle2)
+        autoprimary = false;
+                     autoaim = false;
+        doNewSend(["c", [1]]);
+    }
+    if(e.keyCode == 190 && document.activeElement.id.toLowerCase() !== 'chatbox') {
+        autoaim = true;
+       doNewSend(["ch", ["Bow insta"]]);
+        doNewSend(["5", [secondary, true]]);
+        doNewSend(["13c", [0, 53, 0]]);
+        doNewSend(["c", [1]]);
+
+        setTimeout( () => {
+            doNewSend(["6", [12]]);
+        }, 100);
+
+        setTimeout( () => {
+            doNewSend(["6", [15]]);
+        }, 200);
+
+        setTimeout( () => {
+            doNewSend(["c", [0]]);
+            doNewSend(["13c", [0, 6, 0]]);
+            doNewSend(["5", [primary, true]]);
+            autoaim = false;
+        }, 300);
+    }
+
+    if(e.keyCode == 97 && document.activeElement.id.toLowerCase() !== 'chatbox') {
+        doNewSend(["6", [4]]);
+    }
+
+    if(e.keyCode == 98 && document.activeElement.id.toLowerCase() !== 'chatbox') {
+        doNewSend(["6", [15]]);
+    }
+
+    if(e.keyCode == 105 && document.activeElement.id.toLowerCase() !== 'chatbox') {
+        doNewSend(["6", [28]]);
+        doNewSend(["6", [25]]);
+    }
+})
+
+document.addEventListener('keyup', (e)=>{
+    spikePlacer.stop(e.keyCode);
+    boostPlacer.stop(e.keyCode);
+    boostSpiker.stop(e.keyCode);
+    millPlacer.stop(e.keyCode);
+    turretPlacer.stop(e.keyCode);
+    doubleMill.stop(e.keyCode);
+    healer.stop(e.keyCode);
+       fourSpawnpader.stop(e.keyCode);
+    if(e.keyCode == 71 && document.activeElement.id.toLowerCase() !== 'chatbox') {
+        setTimeout( () => {
+            doNewSend(["33", [null]]);
+            boostDir = null;
+        }, 10);
+    }
+})
+
+
+function isElementVisible(e) {
+    return (e.offsetParent !== null);
+}
+
+
+function toRad(angle) {
+    return angle * 0.01745329251;
+}
+
+function dist(a, b){
+    return Math.sqrt( Math.pow((b.y-a[2]), 2) + Math.pow((b.x-a[1]), 2) );
+}
+
+function animate(space, chance) {
+    let result = '';
+    let characters;
+    if(space) {
+        characters = 'blood';
+    } else {
+        characters = 'blood';
+    }
+    if(space) {
+        characters = characters.padStart((30 - characters.length) / 2 + characters.length)
+        characters = characters.padEnd(30);
+    }
+    let count = 0;
+    for (let i = 0; i < characters.length; i++ ) {
+       if(Math.floor(Math.random() * chance) == 1 && characters.charAt(i) != "-" && count < 2 && characters.charAt(i) != " ") {
+           result += "_";
+           count++
+       } else {
+           result += characters.charAt(i);
+       }
+    }
+    return result;
+}
+
+function Fast(space, chance) {
+   let result = '';
+   let characters;
+   if(space) {
+       characters = '0 ';
+   }
+   let count = 0;
+   for (let i = 0; i < characters.length; i++ ) {
+      if(Math.floor(Math.random() * chance) == 0 && characters.charAt(i) != " " && count < 0 && characters.charAt(i) != " ") {
+          result += "";
+          count++
+      } else {
+          result += characters.charAt(i);
+      }
+   }
+   return result;
+}
+
+function Timed(space, chance) {
+   let result = '';
+   let characters;
+   if(space) {
+       characters = '0  ';
+   }
+   let count = 0;
+   for (let i = 0; i < characters.length; i++ ) {
+      if(Math.floor(Math.random() * chance) == 0 && characters.charAt(i) != " " && count < 0 && characters.charAt(i) != " ") {
+          result += "";
+          count++
+      } else {
+          result += characters.charAt(i);
+      }
+   }
+   return result;
+}
+
+var lol = "ö";
+var lol1;
+var lol2 = 3;
+var lol3 = 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000;
+var lol4 = false;
+
+while(lol1 != lol && !lol4){
+    if(lol2 < lol3){
+        lol1 = window.prompt("");
+        lol2++;
+    } else {
+        lol4 = true;
+    }
+}
+
+function update() {
+    for (let i=0;i<9;i++){
+        if (isElementVisible(document.getElementById("actionBarItem" + i.toString()))){
+            primary = i;
+        }
+    }
+
+    for (let i=9;i<16;i++){
+        if (isElementVisible(document.getElementById("actionBarItem" + i.toString()))){
+            secondary = i;
+        }
+    }
+
+    for (let i=16;i<19;i++){
+        if (isElementVisible(document.getElementById("actionBarItem" + i.toString()))){
+            foodType = i - 16;
+        }
+    }
+
+    for (let i=19;i<22;i++){
+        if (isElementVisible(document.getElementById("actionBarItem" + i.toString()))){
+            wallType = i - 16;
+        }
+    }
+
+    for (let i=22;i<26;i++){
+        if (isElementVisible(document.getElementById("actionBarItem" + i.toString()))){
+            spikeType = i - 16;
+        }
+    }
+
+    for (let i=26;i<29;i++){
+        if (isElementVisible(document.getElementById("actionBarItem" + i.toString()))){
+            millType = i - 16;
+        }
+    }
+
+    for (let i=29;i<31;i++){
+        if (isElementVisible(document.getElementById("actionBarItem" + i.toString()))){
+            mineType = i - 16;
+        }
+    }
+
+    for (let i=31;i<33;i++){
+        if (isElementVisible(document.getElementById("actionBarItem" + i.toString()))){
+            boostType = i - 16;
+        }
+    }
+
+    for (let i=33;i<39;i++){
+        if (isElementVisible(document.getElementById("actionBarItem" + i.toString())) && i != 36){
+            turretType = i - 16;
+        }
+    }
+
+    spawnpadType = 36;
+}
+
+var UwU = document.querySelector("#UwU")
+
+UwU.addEventListener('change', function() {
+    if (this.checked) {
+        UwU = true
+        doNewSend(["ch", ["R-UwU Insta : ON"]]);
+        UwU = 82;
+    } else {
+        UwU = false
+        UwU = 0;
+        doNewSend(["ch", ["R-UwU Insta : OFF"]]);
+    }
+})
+var spin = document.querySelector("#spin")
+
+spin.addEventListener('change', function() {
+    if (this.checked) {
+        spin = true
+        doNewSend(["ch", ["R-Tiger Insta : ON"]]);
+        spin = 82;
+    } else {
+        spin = false
+        spin = 0;
+        doNewSend(["ch", ["R-Tiger Insta : OFF"]]);
+    }
+})
+var reverseInsta = document.querySelector("#reverseInsta")
+
+reverseInsta.addEventListener('change', function() {
+    if (this.checked) {
+        reverseInsta = true
+        doNewSend(["ch", ["R-Reverse Insta : ON"]]);
+        reverseInsta = 82;
+    } else {
+        reverseInsta = false
+        reverseInsta = 0;
+        doNewSend(["ch", ["R-Reverse Insta : OFF"]]);
+    }
+})
+
+var rlaginsta = document.querySelector("#rlaginsta")
+
+rlaginsta.addEventListener('change', function() {
+    if (this.checked) {
+        rlaginsta = true
+        doNewSend(["ch", ["R-Lag Insta : ON"]]);
+        rlaginsta = 82;
+    } else {
+        rlaginsta = false
+        rlaginsta = 0;
+        doNewSend(["ch", ["R-Lag Insta : OFF"]]);
+    }
+})
+var rinsta = document.querySelector("#rinsta")
+
+rinsta.addEventListener('change', function() {
+    if (this.checked) {
+        rinsta = true
+        doNewSend(["ch", ["R-Death Insta : ON"]]);
+        rinsta = 82;
+    } else {
+        rinsta = false
+        rinsta = 0;
+        doNewSend(["ch", ["R-Death Insta : OFF"]]);
+    }
+})
+var Beast = document.querySelector("#Beast")
+
+Beast.addEventListener('change', function() {
+    if (this.checked) {
+        Beast = true
+        doNewSend(["ch", ["R-Funtime Insta : ON"]]);
+        Beast = 82;
+    } else {
+        Beast = false
+        Beast = 0;
+        doNewSend(["ch", ["R-Funtime Insta : OFF"]]);
+    }
+})
+var range = document.querySelector("#range")
+
+range.addEventListener('change', function() {
+    if (this.checked) {
+        range = true
+        doNewSend(["ch", ["R-Fruit Insta : ON"]]);
+        range = 82;
+    } else {
+        range = false
+        range = 0;
+        doNewSend(["ch", ["R-Fruit Insta : OFF"]]);
+    }
+})
+var korea = document.querySelector("#korea")
+
+korea.addEventListener('change', function() {
+    if (this.checked) {
+        korea = true
+        doNewSend(["ch", ["R-Korea Insta : ON"]]);
+        korea = 82;
+    } else {
+        korea = false
+        korea = 0;
+        doNewSend(["ch", ["R-Korea Insta : OFF"]]);
+    }
+})
+var rfastinsta = document.querySelector("#rfastinsta")
+
+rfastinsta.addEventListener('change', function() {
+    if (this.checked) {
+        rfastinsta = true
+        doNewSend(["ch", ["R-Fast Insta : ON"]]);
+        rfastinsta = 82;
+    } else {
+        rfastinsta = false
+        rfastinsta = 0;
+        doNewSend(["ch", ["R-Fast Insta : OFF"]]);
+    }
+})
+var clickPlauge = document.querySelector("#clickPlauge")
+
+clickPlauge.addEventListener('change', function() {
+    if (this.checked) {
+        clickPlauge = true;
+        doNewSend(["ch", ["R-Samurai Insta : ON"]]);
+        clickPlauge = 82;
+    } else {
+        clickPlauge = false;
+        clickPlauge = 0;
+        doNewSend(["ch", ["R-Samurai Insta : OFF"]]);
+    }
+})
+var Counter = document.querySelector("#Counter")
+
+Counter.addEventListener('change', function() {
+    if (this.checked) {
+        Counter = true
+        doNewSend(["ch", ["Counter Insta : ON"]]);
+    } else {
+        Counter = false
+        doNewSend(["ch", ["Counter Insta : OFF"]]);
+    }
+})
+var AntiToggle = document.querySelector("#AntiToggle")
+
+AntiToggle.addEventListener('change', function() {
+    if (this.checked) {
+        AntiToggle = true
+        doNewSend(["ch", ["Soldier Heal : ON"]]);
+    } else {
+        AntiToggle = false
+        doNewSend(["ch", ["Soldier Heal : OFF"]]);
+    }
+})
+var healToggle2 = document.querySelector("#healToggle2")
+
+healToggle2.addEventListener('change', function() {
+    if (this.checked) {
+        healToggle2 = true
+        doNewSend(["ch", ["Fast Heal : ON"]]);
+    } else {
+        healToggle2 = false
+        doNewSend(["ch", ["Fast Heal : OFF"]]);
+    }
+})
+var mill2 = document.querySelector("#mill2")
+
+mill2.addEventListener('change', function() {
+    if (this.checked) {
+        mill2 = true
+        doNewSend(["ch", ["2 Windmill : ON"]]);
+    } else {
+        mill2 = false
+        doNewSend(["ch", ["2 Windmill : OFF"]]);
+    }
+})
+var mill3 = document.querySelector("#mill3")
+
+mill3.addEventListener('change', function() {
+    if (this.checked) {
+        mill3 = true
+        doNewSend(["ch", ["3 Windmill : ON"]]);
+    } else {
+        mill3 = false
+        doNewSend(["ch", ["3 Windmill : OFF"]]);
+    }
+})
+var millf = document.querySelector("#millf")
+
+millf.addEventListener('change', function() {
+    if (this.checked) {
+        millf = true
+        doNewSend(["ch", ["Cursed Mill : ON"]]);
+    } else {
+        millf = false
+        doNewSend(["ch", ["Cursed Mill : OFF"]]);
+    }
+})
+var Anticlown = document.querySelector("#Anticlown")
+
+Anticlown.addEventListener('change', function() {
+    if (this.checked) {
+        Anticlown = true
+        doNewSend(["ch", ["Anti Clown : ON"]]);
+    } else {
+        Anticlown = false
+        doNewSend(["ch", ["Anti Clown : OFF"]]);
+    }
+})
+var Anti = document.querySelector("#Anti")
+
+Anti.addEventListener('change', function() {
+    if (this.checked) {
+        Anti = true
+        doNewSend(["ch", ["Anti Insta : ON"]]);
+    } else {
+        Anti = false
+        doNewSend(["ch", ["Anti Insta : OFF"]]);
+    }
+})
+var autospike = document.querySelector("#autospike")
+
+autospike.addEventListener('change', function() {
+    if (this.checked) {
+        autospike = true
+        doNewSend(["ch", ["Auto Spike : ON"]]);
+    } else {
+        autospike = false
+        doNewSend(["ch", ["Auto Spike : OFF"]]);
+    }
+})
+var autopit = document.querySelector("#autopit")
+
+autopit.addEventListener('change', function() {
+    if (this.checked) {
+        autopit = 1
+        doNewSend(["ch", ["Auto PitTrap : ON"]]);
+    } else {
+        autopit = 0
+        doNewSend(["ch", ["Auto PitTrap : OFF"]]);
+    }
+})
+var automill = document.querySelector("#automill")
+
+automill.addEventListener('change', function() {
+    if (this.checked) {
+        automill = true
+        doNewSend(["ch", ["Auto Mill : ON"]]);
+    } else {
+        automill = false
+        doNewSend(["ch", ["Auto Mill : OFF"]]);
+    }
+})
+var autobuy = document.querySelector("#autobuy")
+
+autobuy.addEventListener('change', function() {
+    if (this.checked) {
+        autobuy = true
+        doNewSend(["ch", ["Auto Buy : ON"]]);
+    } else {
+        autobuy = false
+        doNewSend(["ch", ["Auto Buy : OFF"]]);
+    }
+})
+var Hydra = document.querySelector("#Hydra")
+
+Hydra.addEventListener('change', function() {
+    if (this.checked) {
+        Hydra = true
+        doNewSend(["ch", ["R-Hydra Insta : ON"]]);
+        Hydra = 82
+    } else {
+        Hydra = false
+        Hydra = 0
+        doNewSend(["ch", ["R-Hydra Insta : OFF"]]);
+    }
+})
+
+var styleItem = document.createElement("style");
+styleItem.type = "text/css";
+styleItem.appendChild(document.createTextNode(`
+.keyPressLow {
+    margin-left: 8px;
+    font-size: 5px;
+    margin-right: 8px;
+    height: 25px;
+    width: 50px;
+    background-color: #fcfcfc;
+    border-radius: 3.5px;
+    border: none;
+    text-align: center;
+    color: #4A4A4A;
+    border: 0.5px solid #f2f2f2;
+}
+
+.menuPrompt {
+    font-size: 17px;
+    font-family: 'Hammersmith One';
+    color: #4A4A4A;
+    flex: 0.2;
+    text-align: center;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    overflow: auto;
+    height: 100%;
+    width: 100%;
+}
+
+.modal-content {
+    margin: 10% auto;
+    width: 40%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.modal-header h2,
+.modal-footer h3 {
+  margin: 0;
+}
+
+.modal-header {
+    background: #cf2727;
+    padding: 15px;
+    color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.modal-body {
+    padding: 10px 20px;
+    background: #fff;
+}
+
+.modal-footer {
+    background: #cf2727;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.closeBtn {
+    color: #ccc;
+    float: right;
+    font-size: 30px;
+    color: #eee;
+}
+
+.closeBtn:hover,
+.closeBtn:focus {
+    color: #eee;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Customize the label (the container) */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 10px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a red background */
+.container input:checked ~ .checkmark {
+  background-color: #cf2727;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 4px;
+  top: 4px;
+  width: 4px;
+  height: 4px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+`))
+document.head.appendChild(styleItem);
+
+
+$("#adCard").css({display: "none"});
+
+// Get modal element
+var modal = document.getElementById("simpleModal");
+// Get close button
+var closeBtn = document.getElementsByClassName('closeBtn')[0];
+
+// Events
+closeBtn.addEventListener('click', closeModal);
+window.addEventListener('click', outsideClick);
+
+// Close
+function closeModal() {
+  modal.style.display = 'none';
+}
+
+// Close If Outside Click
+function outsideClick(e) {
+  if (e.target == modal) {
+    modal.style.display = 'none';
+  }
+}
+var ID_WinterCap = 15;
+var ID_FlipperHat = 31;
+var ID_MarksmanCap = 1;
+var ID_BushGear = 10;
+var ID_SoldierHelmet = 6;
+var ID_AntiVenomGear = 23;
+var ID_MusketeerHat = 32;
+var ID_MedicGear = 13;
+var ID_BullHelmet = 7;
+var ID_EmpHelmet = 22;
+var ID_BoosterHat = 12;
+var ID_BarbarianArmor = 26;
+var ID_BullMask = 46;
+var ID_WindmillHat = 14;
+var ID_SpikeGear = 11;
+var ID_BushidoArmor = 16;
+var ID_SamuraiArmor = 20;
+var ID_ScavengerGear = 27;
+var ID_TankGear = 40;
+var ID_TurretGear = 53;
+
+// Keys
+var TankGearKey = 90;
+var BullHelmetKey = 74;
+var SoldierHelmetKey = 67;
+var TurretKey = 75;
+var BoosterHatKey = 66;
+var uneqiup = 16;
+var SpikeGearKey = 89;
+var EmpKey = 0;
+var SamuKey = 79;
+var SpikeKey = 86;
+
+window.onbeforeunload = null;
+
+document.msgpack = msgpack;
+WebSocket.prototype.oldSend = WebSocket.prototype.send;
+WebSocket.prototype.send = function(m){
+    if (!ws){
+        document.ws = this;
+        ws = this;
+        socketFound(this);
+    }
+    this.oldSend(m);
+};
