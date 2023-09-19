@@ -1,0 +1,78 @@
+// ==UserScript==
+// @name        ★V.O.X. | Hoi. Mode 1.0★ (Just For GiveAway)
+// @namespace    -
+// @version     13
+// @description Im Your Demo :)
+// @author      V.O.X. | Hoi.
+// @match        *://moomoo.io/*
+// @match        *://sandbox.moomoo.io/*
+// @grant        none
+// @require https://greasyfork.org/scripts/368273-msgpack/code/msgpack.js?version=598723
+// @require http://code.jquery.com/jquery-3.3.1.min.js
+// @require https://code.jquery.com/ui/1.12.0/jquery-ui.min.js
+// @require https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.0/jquery-confirm.min.js
+
+// ==/UserScript==
+let newImg = document.createElement("img");
+newImg.src = "https://cdn.discordapp.com/attachments/655720809683484672/720141112014274580/4d0xpxiytgi.jpg";
+newImg.style = `position: absolute; bottom: 20px; left: 175px; z-index: 100000; width: 90px; height: 90px; cursor: pointer; border-radius: 50%;`;
+document.body.prepend(newImg);
+
+$("#consentBlock").css({display: "none"});
+//$("#youtuberOf").css({display: "none"});
+$("#mapDisplay").css({background: `url('https://i.imgur.com/fgFsQJp.png')`});
+
+document.getElementById("moomooio_728x90_home").style.display = "none";
+$("#moomooio_728x90_home").parent().css({display: "none"});
+
+window.onbeforeunload = null;
+
+let mouseX;
+let mouseY;
+
+let width;
+let height;
+
+setInterval(() => {
+   if(clanToggle == 1) {
+        doNewSend(["9", [null]]);
+        doNewSend(["8", [animate(false, 5)]])
+    }
+    doNewSend(["testing", [6]]);
+}, 200);
+
+setInterval(() => {
+    if(messageToggle == 1) {
+        doNewSend(["ch", [animate(true, 5)]])
+    }
+}, 200);
+
+setInterval(() => {
+    if(autoaim == true) {
+        doNewSend(["2", [nearestEnemyAngle]]);
+    }
+}, 0);
+
+setInterval(() => {
+    if(hatToggle == 1) {
+        if(oldHat != normalHat) {
+            hat(normalHat);
+            console.log("Tried. - Hat")
+        }
+        if(oldAcc != normalAcc) {
+            acc(normalAcc);
+            console.log("Tried. - Acc")
+        }
+        oldHat = normalHat;
+        oldAcc = normalAcc
+    }
+}, 25);
+
+function normal() {
+    hat(normalHat);
+    acc(normalAcc);
+}
+
+function aim(x, y){
+     var cvs = document.getElementById("gameCanvas");
+     cvs.dispatchEvent(new MouseEvent("mousemove", {
